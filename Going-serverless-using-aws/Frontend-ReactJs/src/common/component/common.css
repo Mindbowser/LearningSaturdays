@@ -1,0 +1,124 @@
+/* editDeleteOptionPopup css  */
+.more-dropdown-custom-btn {
+  color: transparent !important;
+  background-color: transparent !important;
+  border-color: transparent !important;
+}
+
+.provider-more-menu-action {
+  border-radius: 4px;
+}
+
+.more-dropdown-item {
+  font-size: 13px;
+  line-height: 24px;
+  align-items: center;
+  letter-spacing: 0.2px;
+  background: transparent !important;
+  padding: 10px 16px 8px 16px !important;
+}
+
+.more-dropdown-item:focus,
+.more-dropdown-item:hover {
+  background-color: #8f99b0 !important;
+}
+
+/* no record component css */
+.no-record-text {
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 21px;
+  color: #11182e;
+  margin-top: 30px;
+}
+
+.no-record-div {
+  display: flex;
+  flex-flow: column;
+  align-items: center;
+}
+
+/* pagination component css */
+.text-padding {
+  padding: 0 5px;
+}
+.img-inactive {
+  opacity: 0.2;
+}
+
+.text-css {
+  font-size: 16px !important;
+  line-height: 24px !important;
+  margin-right: 20px;
+}
+
+/* Pagination css */
+.current-page {
+  font-size: 1.5rem;
+  vertical-align: middle;
+}
+
+.country-card-container {
+  height: 60px;
+  cursor: pointer;
+  position: relative;
+  overflow: hidden;
+}
+
+.country-name {
+  font-size: 0.9rem;
+}
+
+.country-region {
+  font-size: 0.7rem;
+}
+
+.country-page,
+.country-name,
+.country-region {
+  line-height: 1;
+}
+
+ul.pagination {
+  margin-top: 0;
+  margin-bottom: 0;
+  box-shadow: 0 0 5px rgba(0, 0, 0, 0.1);
+}
+ul.pagination li.page-item.active a.page-link {
+  color: #445565 !important;
+  background-color: #e3e7eb !important;
+  border-color: #ced4da !important;
+}
+ul.pagination a.page-link {
+  padding: 0.75rem 1rem;
+  min-width: 3.5rem;
+  text-align: center;
+  box-shadow: none !important;
+  border-color: #ced4da !important;
+  color: #6b88a4;
+  font-weight: 700;
+  font-size: 1rem;
+}
+ul.pagination a.page-link:hover {
+  background-color: #f4f4f4;
+}
+.pagination {
+  width: fit-content !important;
+}
+
+.pagination-div {
+  display: flex;
+  justify-content: center;
+  align-items: baseline;
+}
+
+@media only screen and (max-width: 767px) {
+  .pagination-div {
+    display: flex;
+    flex-flow: column;
+    align-items: center;
+  }
+  ul.pagination a.page-link {
+    min-width: 2.5rem !important;
+  }
+}
